@@ -20,4 +20,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Cerrar.unity
     guid: 7190a114a28c12545ac26507bc1f8d76
+  - enabled: 1
+    path: Assets/Scenes/AR_MAP.unity
+    guid: ed4a6bbfbfb5d7f4fb208c29c38b6f18
+  - enabled: 1
+    path: Assets/Scenes/Map.unity
+    guid: e6647cdb6d27c2e49855d9a0f375937c
+  - enabled: 1
+    path: Assets/Scenes/Ruta.unity
+    guid: 195b958914364a9498c2ad791a75e0ff
+  - enabled: 1
+    path: Assets/Scenes/AR_MAP_2.unity
+    guid: 4ee50b4e30fa9274699d09704e0d3572
   m_configObjects: {}
