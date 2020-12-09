@@ -818,7 +818,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: ZOOM MAP
+  m_Text: MAPA
 --- !u!222 &1171351456
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1382,7 +1382,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: AR/MAP
+  m_Text: RA/MAPA
 --- !u!222 &1798279860
 CanvasRenderer:
   m_ObjectHideFlags: 0
