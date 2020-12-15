@@ -35,4 +35,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Menu_Simple_Zona_Peligro.unity
     guid: 6fad508eb0f532d4abf3c4eafde77cc0
+  - enabled: 1
+    path: "Assets/Scenes/Mapa_Edificios p\xFAblicos_institucionales.unity"
+    guid: 59e8d082b163bdf439d5afb3276d77dc
+  - enabled: 1
+    path: Assets/Scenes/Mapa_Edificios_condominios_residenciales.unity
+    guid: 3d269d184d910584dafde0dff0ca675d
+  - enabled: 1
+    path: Assets/Scenes/Mapa_Educacionales.unity
+    guid: 7e7c40e62323bb24182c0e8d7c3faceb
+  - enabled: 1
+    path: Assets/Scenes/Mapa_empresas_privadas_y_servicios.unity
+    guid: 24aba7f06b9721342b6155c631a3a8d5
+  - enabled: 1
+    path: Assets/Scenes/Mapa_Establecimientos_salud.unity
+    guid: 1db4451db207a404ba1669b13bc974b0
   m_configObjects: {}
