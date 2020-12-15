@@ -586,12 +586,12 @@ MonoBehaviour:
   _initializeOnStart: 1
   _imagery:
     _layerProperty:
-      sourceType: 0
+      sourceType: 6
       sourceOptions:
         isActive: 1
         layerSource:
           Name: Streets
-          Id: mapbox://styles/mapbox/streets-v10
+          Id: mapbox://styles/kakugo/ckgho7fp60v4119o6zi3j4yq9
           Modified: 
           UserName: 
       rasterOptions:
