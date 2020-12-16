@@ -122,6 +122,7 @@ GameObject:
   m_Component:
   - component: {fileID: 110210641}
   - component: {fileID: 110210642}
+  - component: {fileID: 110210643}
   m_Layer: 0
   m_Name: Map
   m_TagString: Untagged
@@ -1648,7 +1649,7 @@ MonoBehaviour:
         selectedTypes: 
         spawnPrefabOptions:
           prefab: {fileID: 0}
-          scaleDownWithWorld: 0
+          scaleDownWithWorld: 1
         findByType: 2
         categories: -1
         nameString: 
@@ -3066,6 +3067,23 @@ MonoBehaviour:
   _tileProvider: {fileID: 0}
   _previewOptions:
     isPreviewEnabled: 0
+--- !u!114 &110210643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 110210640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c699b8e1864b4b248acb7a04ede9480, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _panSpeed: 1
+  _zoomSpeed: 0.25
+  _referenceCamera: {fileID: 177789518}
+  _mapManager: {fileID: 110210642}
+  _useDegreeMethod: 0
 --- !u!21 &176169415
 Material:
   serializedVersion: 6

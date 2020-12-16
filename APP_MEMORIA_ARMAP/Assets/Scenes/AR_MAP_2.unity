@@ -1214,16 +1214,26 @@ PrefabInstance:
     - target: {fileID: 114426609730744774, guid: 840fafd579d474d53ba0a6b55a3f7a89,
         type: 3}
       propertyPath: _latitudeLongitude
-      value: -18.455146431256335, -70.2815933652738
+      value: -18.455120979162945, -70.28156654553418
       objectReference: {fileID: 0}
     - target: {fileID: 114611718048448722, guid: 840fafd579d474d53ba0a6b55a3f7a89,
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.size
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 114611718048448722, guid: 840fafd579d474d53ba0a6b55a3f7a89,
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[0].coordinates.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114611718048448722, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[1].coordinates.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114611718048448722, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[2].coordinates.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114611718048448722, guid: 840fafd579d474d53ba0a6b55a3f7a89,
@@ -1259,7 +1269,7 @@ PrefabInstance:
     - target: {fileID: 114611718048448722, guid: 840fafd579d474d53ba0a6b55a3f7a89,
         type: 3}
       propertyPath: _options.locationOptions.latitudeLongitude
-      value: -18.455146431256335, -70.2815933652738
+      value: -18.455120979162945, -70.28156654553418
       objectReference: {fileID: 0}
     - target: {fileID: 114611718048448722, guid: 840fafd579d474d53ba0a6b55a3f7a89,
         type: 3}
@@ -1319,7 +1329,87 @@ PrefabInstance:
     - target: {fileID: 114611718048448722, guid: 840fafd579d474d53ba0a6b55a3f7a89,
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[0].coordinates.Array.data[0]
-      value: -18.455782496999937, -70.28172747560392
+      value: -18.455813018681795, -70.28173820689945
+      objectReference: {fileID: 0}
+    - target: {fileID: 114611718048448722, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[1].coreOptions.isActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114611718048448722, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[1].coreOptions.sublayerName
+      value: "Linderos Con Ant\xE1rtica "
+      objectReference: {fileID: 0}
+    - target: {fileID: 114611718048448722, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[1].coreOptions.snapToTerrain
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114611718048448722, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[1].presetFeatureType
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114611718048448722, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[1].findByType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114611718048448722, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[1].categories
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114611718048448722, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[1].coordinates.Array.data[0]
+      value: -18.45258, -70.28454
+      objectReference: {fileID: 0}
+    - target: {fileID: 114611718048448722, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[1].density
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 114611718048448722, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[2].coreOptions.isActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114611718048448722, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[2].coreOptions.sublayerName
+      value: 'Alejandro Azolas con Los Artesanos '
+      objectReference: {fileID: 0}
+    - target: {fileID: 114611718048448722, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[2].coreOptions.snapToTerrain
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114611718048448722, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[2].presetFeatureType
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114611718048448722, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[2].findByType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114611718048448722, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[2].categories
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114611718048448722, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[2].coordinates.Array.data[0]
+      value: -18.4577, -70.28533
+      objectReference: {fileID: 0}
+    - target: {fileID: 114611718048448722, guid: 840fafd579d474d53ba0a6b55a3f7a89,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[2].density
+      value: 15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 840fafd579d474d53ba0a6b55a3f7a89, type: 3}
