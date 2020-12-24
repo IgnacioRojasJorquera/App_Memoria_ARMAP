@@ -9,7 +9,7 @@ public class Reloj : MonoBehaviour
     public int tiempo_inicial;
 
     [Tooltip("Escala del tiempo del reloj")]
-    [Range(-10.0f,10.0f)]
+    [Range(-10.0f, 10.0f)]
     public float escala_tiempo = 1;
 
     private Text myText;
@@ -17,6 +17,26 @@ public class Reloj : MonoBehaviour
     private float tiempo_mostrar = 0f;
     private float escala_tiempo_pausar, escala_tiempo_inicial;
     private bool pausado = false;
+    private bool evento_tiempo_cero = false;
+
+    //Crear delegado para evento tiempo cero
+    public delegate void AccionTimpoCero();
+    //Crear tiempo
+    public static event AccionTimpoCero LlegarACero;
+
+    public static Reloj inst_reloj;
+    private void Awake()
+    {
+        if (inst_reloj == null)
+        {
+            Reloj.inst_reloj = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -36,17 +56,31 @@ public class Reloj : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //Tiempo de cada frame considerando al escala de tiempo
-        tiempo_frame_escala_tiempo = Time.deltaTime * escala_tiempo;
+        if(!pausado)
+        {
+            //Tiempo de cada frame considerando al escala de tiempo
+            tiempo_frame_escala_tiempo = Time.deltaTime * escala_tiempo;
 
-        //Acumula el tiempo transcurrido y muestra en reloj
-        tiempo_mostrar += tiempo_frame_escala_tiempo;
-        ActualizarReloj(tiempo_mostrar);
+            //Acumula el tiempo transcurrido y muestra en reloj
+            tiempo_mostrar += tiempo_frame_escala_tiempo;
+            ActualizarReloj(tiempo_mostrar);
+        }
+        
     }
 
     public void ActualizarReloj(float tiempo_segundos)
     {
         string texto_reloj;
+
+        //Disparar evento al llegar a cero
+        if(tiempo_segundos <=0 && !evento_tiempo_cero)
+        {
+            if(LlegarACero != null)
+            {
+                LlegarACero();
+            }
+            evento_tiempo_cero = true;
+        }
 
         //Asegurar el tiempo no sea negativo
         if (tiempo_segundos < 0)
@@ -61,5 +95,33 @@ public class Reloj : MonoBehaviour
 
         //Actualizar elemento text de UI 
         myText.text = texto_reloj;
+    }
+
+    public void Pausar()
+    {
+        if (!pausado)
+        {
+            pausado = true;
+            escala_tiempo_pausar = escala_tiempo;
+            escala_tiempo = 0;
+        }
+    }
+
+    public void Continuar()
+    {
+        if(pausado)
+        {
+            pausado = false;
+            escala_tiempo = escala_tiempo_pausar;
+        }
+    } 
+
+    public void Reiniciar()
+    {
+        pausado = false;
+        evento_tiempo_cero = false;
+        escala_tiempo = escala_tiempo_inicial;
+        tiempo_mostrar = tiempo_inicial;
+        ActualizarReloj(tiempo_mostrar);
     }
 }
