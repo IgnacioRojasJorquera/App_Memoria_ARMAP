@@ -12,9 +12,9 @@ public class Reloj : MonoBehaviour
     [Range(-10.0f, 10.0f)]
     public float escala_tiempo = 1;
 
-    private Text myText;
+    private Text myText; //rescatar
     private float tiempo_frame_escala_tiempo = 0f;
-    private float tiempo_mostrar = 0f;
+    private float tiempo_mostrar = 0f; //rescatar
     private float escala_tiempo_pausar, escala_tiempo_inicial;
     private bool pausado = false;
     private bool evento_tiempo_cero = false;
@@ -24,6 +24,8 @@ public class Reloj : MonoBehaviour
     //Crear tiempo
     public static event AccionTimpoCero LlegarACero;
 
+    /*
+    //Mantentener tiempo en otras escenas, SINGLETONS
     public static Reloj inst_reloj;
     private void Awake()
     {
@@ -37,7 +39,11 @@ public class Reloj : MonoBehaviour
             Destroy(gameObject);
         }
     }
-
+    */
+    private void Awake()
+    {
+        LoadData();
+    }
     // Start is called before the first frame update
     void Start()
     {
@@ -123,5 +129,22 @@ public class Reloj : MonoBehaviour
         escala_tiempo = escala_tiempo_inicial;
         tiempo_mostrar = tiempo_inicial;
         ActualizarReloj(tiempo_mostrar);
+    }
+
+    private void onDestroy()
+    {
+        SaveData();
+    }
+
+    private void SaveData()
+    {
+        DatosentreEscenas.inst.myText = myText;
+        DatosentreEscenas.inst.Set_Tiempo(tiempo_mostrar);
+    }
+
+    private void LoadData()
+    {
+        myText = DatosentreEscenas.inst.myText;
+        tiempo_mostrar = DatosentreEscenas.inst.Get_tiempo();
     }
 }
