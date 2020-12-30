@@ -9,9 +9,12 @@ public class DatosentreEscenas : MonoBehaviour
     //Mantentener tiempo en otras escenas, SINGLETONS
     public static DatosentreEscenas inst;
 
+    public int money;
+    private int item;
+
     #region Reloj
     public Text myText;
-    public float tiempo_mostrar = 0f;
+    private float tiempo_mostrar;
     #endregion
     private void Awake()
     {
@@ -22,8 +25,22 @@ public class DatosentreEscenas : MonoBehaviour
         }
         else
         {
-            Destroy(gameObject);
+            if(inst != this)
+            {
+                Destroy(gameObject);
+            }
+            
         }
+    }
+
+    public void SetItems(int i)
+    {
+        item = i;
+    }
+
+    public float GetItems()
+    {
+        return item;
     }
 
     public void Set_Tiempo(float t)

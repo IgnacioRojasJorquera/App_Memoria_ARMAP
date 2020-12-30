@@ -50,4 +50,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Mapa_Establecimientos_salud.unity
     guid: 1db4451db207a404ba1669b13bc974b0
+  - enabled: 1
+    path: Assets/Scenes/Test.unity
+    guid: d298c8e3b90deea4e863831252b4ca39
   m_configObjects: {}
