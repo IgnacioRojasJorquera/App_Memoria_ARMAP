@@ -53,4 +53,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Test.unity
     guid: d298c8e3b90deea4e863831252b4ca39
+  - enabled: 1
+    path: Assets/Scenes/Historial_Tiempos.unity
+    guid: 7a68265cc6d7a574b84a514d09b067b4
   m_configObjects: {}
