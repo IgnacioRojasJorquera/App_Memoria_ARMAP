@@ -20,6 +20,8 @@ public class Reloj : MonoBehaviour
     private bool pausado = false;
     private bool evento_tiempo_cero = false;
 
+    public Text textoRecord;
+
     //Crear delegado para evento tiempo cero
     public delegate void AccionTimpoCero();
     //Crear tiempo
@@ -60,6 +62,8 @@ public class Reloj : MonoBehaviour
         tiempo_mostrar = tiempo_inicial;
 
         ActualizarReloj(tiempo_inicial);
+
+        textoRecord.text = PlayerPrefs.GetFloat("Puntaje_Record", 0).ToString();
     }
 
     // Update is called once per frame
@@ -113,6 +117,13 @@ public class Reloj : MonoBehaviour
             pausado = true;
             escala_tiempo_pausar = escala_tiempo;
             escala_tiempo = 0;
+            //Playerprefs
+            if(tiempo_mostrar < PlayerPrefs.GetFloat("Puntaje_Record",0))
+            {
+                PlayerPrefs.SetFloat("Puntaje_Record", tiempo_mostrar);
+                textoRecord.text = tiempo_mostrar.ToString();
+            }
+            
         }
     }
 
@@ -151,4 +162,10 @@ public class Reloj : MonoBehaviour
         tiempo_mostrar = DatosentreEscenas.inst.Get_tiempo();
     }
     
+   /* public void BorrarDatos()
+    {
+        PlayerPrefs.DeleteKey("PuntajeRecord");
+        texto_record.text = "0";
+    }
+    */
 }

@@ -300,6 +300,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b70496dc2a6b1a7418d29f7882fc062f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TextoRecod: {fileID: 0}
 --- !u!4 &506584021
 Transform:
   m_ObjectHideFlags: 0

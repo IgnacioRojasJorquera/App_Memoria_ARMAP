@@ -15,6 +15,7 @@ public class DatosentreEscenas : MonoBehaviour
     #region Reloj
     public Text myText;
     private float tiempo_mostrar;
+    //private float escala_tiempo_pausa;
     #endregion
     private void Awake()
     {
