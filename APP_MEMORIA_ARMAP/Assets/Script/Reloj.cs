@@ -110,6 +110,25 @@ public class Reloj : MonoBehaviour
         myText.text = texto_reloj;
     }
 
+    public void GrabarRecord()
+    {
+        if (!pausado)
+        {
+            pausado = true;
+            escala_tiempo_pausar = escala_tiempo;
+            escala_tiempo = 0;
+            //Playerprefs
+            //textoRecord.text = tiempo_mostrar.ToString();
+            //PlayerPrefs.SetFloat("Puntaje_Record", tiempo_mostrar);
+
+            if (tiempo_mostrar < PlayerPrefs.GetFloat("Puntaje_Record", tiempo_inicial))
+            {
+                PlayerPrefs.SetFloat("Puntaje_Record", tiempo_mostrar);
+                textoRecord.text = tiempo_mostrar.ToString();
+            }
+
+        }
+    }
     public void Pausar()
     {
         if (!pausado)
@@ -120,13 +139,13 @@ public class Reloj : MonoBehaviour
             //Playerprefs
             //textoRecord.text = tiempo_mostrar.ToString();
             //PlayerPrefs.SetFloat("Puntaje_Record", tiempo_mostrar);
-            
+            /*
             if (tiempo_mostrar < PlayerPrefs.GetFloat("Puntaje_Record",tiempo_inicial))
             {
                 PlayerPrefs.SetFloat("Puntaje_Record", tiempo_mostrar);
                 textoRecord.text = tiempo_mostrar.ToString();
             }
-            
+            */
         }
     }
 
@@ -155,12 +174,14 @@ public class Reloj : MonoBehaviour
 
     private void SaveData()
     {
+        //DatosentreEscenas.inst.textoRecord = textoRecord;
         DatosentreEscenas.inst.myText = myText;
         DatosentreEscenas.inst.Set_Tiempo(tiempo_mostrar);
     }
 
     private void LoadData()
     {
+        //textoRecord = DatosentreEscenas.inst.textoRecord;
         myText = DatosentreEscenas.inst.myText;
         tiempo_mostrar = DatosentreEscenas.inst.Get_tiempo();
     }

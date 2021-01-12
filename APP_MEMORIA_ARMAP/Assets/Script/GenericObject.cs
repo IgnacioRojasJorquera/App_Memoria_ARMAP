@@ -30,7 +30,7 @@ public class GenericObject : MonoBehaviour
     private void SaveData()
     {
         DatosentreEscenas.inst.money = money;
-        DatosentreEscenas.inst.SetItems(item);
+        //DatosentreEscenas.inst.SetItems(item);
     }
 
     private void LoadData()

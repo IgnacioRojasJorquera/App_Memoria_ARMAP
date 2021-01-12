@@ -15,6 +15,9 @@ public class DatosentreEscenas : MonoBehaviour
     #region Reloj
     public Text myText;
     private float tiempo_mostrar;
+
+    public Text textoRecord;
+
     //private float escala_tiempo_pausa;
     #endregion
     private void Awake()
@@ -26,14 +29,15 @@ public class DatosentreEscenas : MonoBehaviour
         }
         else
         {
-            if(inst != this)
+            Destroy(gameObject);
+            /*if(inst != this)
             {
                 Destroy(gameObject);
             }
-            
+            */
         }
     }
-
+    /*
     public void SetItems(int i)
     {
         item = i;
@@ -43,7 +47,7 @@ public class DatosentreEscenas : MonoBehaviour
     {
         return item;
     }
-
+    */
     public void Set_Tiempo(float t)
     {
         tiempo_mostrar = t;
