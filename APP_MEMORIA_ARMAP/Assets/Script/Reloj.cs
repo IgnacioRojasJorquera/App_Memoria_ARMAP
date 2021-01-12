@@ -63,7 +63,7 @@ public class Reloj : MonoBehaviour
 
         ActualizarReloj(tiempo_inicial);
 
-        textoRecord.text = PlayerPrefs.GetFloat("Puntaje_Record", 0).ToString();
+        textoRecord.text = PlayerPrefs.GetFloat("Puntaje_Record", tiempo_inicial).ToString();
     }
 
     // Update is called once per frame
@@ -118,7 +118,10 @@ public class Reloj : MonoBehaviour
             escala_tiempo_pausar = escala_tiempo;
             escala_tiempo = 0;
             //Playerprefs
-            if(tiempo_mostrar < PlayerPrefs.GetFloat("Puntaje_Record",0))
+            //textoRecord.text = tiempo_mostrar.ToString();
+            //PlayerPrefs.SetFloat("Puntaje_Record", tiempo_mostrar);
+            
+            if (tiempo_mostrar < PlayerPrefs.GetFloat("Puntaje_Record",tiempo_inicial))
             {
                 PlayerPrefs.SetFloat("Puntaje_Record", tiempo_mostrar);
                 textoRecord.text = tiempo_mostrar.ToString();
@@ -162,10 +165,10 @@ public class Reloj : MonoBehaviour
         tiempo_mostrar = DatosentreEscenas.inst.Get_tiempo();
     }
     
-   /* public void BorrarDatos()
+    public void BorrarDatos()
     {
-        PlayerPrefs.DeleteKey("PuntajeRecord");
-        texto_record.text = "0";
+        PlayerPrefs.DeleteKey("Puntaje_Record");
+        textoRecord.text = tiempo_inicial.ToString();
     }
-    */
+    
 }
