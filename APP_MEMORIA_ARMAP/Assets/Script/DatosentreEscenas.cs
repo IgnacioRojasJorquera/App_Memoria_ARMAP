@@ -12,6 +12,10 @@ public class DatosentreEscenas : MonoBehaviour
     public int money;
     private int item;
 
+
+    //public Transform MainCanvas;
+
+
     #region Reloj
     public Text myText;
     private float tiempo_mostrar;
@@ -57,4 +61,12 @@ public class DatosentreEscenas : MonoBehaviour
     {
         return tiempo_mostrar;
     }
+
+    /*
+    public Popup CreatePopup()
+    {
+        GameObject popUpGo = Instantiate(Resources.Load("UI/popup") as GameObject);
+        return popUpGo.GetComponent<Popup>();
+    }
+    */
 }

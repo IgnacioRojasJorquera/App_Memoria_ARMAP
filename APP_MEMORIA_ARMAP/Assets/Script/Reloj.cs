@@ -27,6 +27,12 @@ public class Reloj : MonoBehaviour
     //Crear tiempo
     public static event AccionTimpoCero LlegarACero;
 
+
+    //para popup
+    public GameObject record;
+    public GameObject no_record;
+
+
     /*
     //Mantentener tiempo en otras escenas, SINGLETONS
     public static Reloj inst_reloj;
@@ -125,6 +131,11 @@ public class Reloj : MonoBehaviour
             {
                 PlayerPrefs.SetFloat("Puntaje_Record", tiempo_mostrar);
                 textoRecord.text = tiempo_mostrar.ToString();
+                Record();
+            }
+            else
+            {
+                NORecord();
             }
 
         }
@@ -191,5 +202,22 @@ public class Reloj : MonoBehaviour
         PlayerPrefs.DeleteKey("Puntaje_Record");
         textoRecord.text = tiempo_inicial.ToString();
     }
-    
+
+    public void Record()
+    {
+        record.SetActive(true);
+    }
+
+    public void NORecord()
+    {
+        no_record.SetActive(true);
+    }
+    public void CloseRecord()
+    {
+        record.SetActive(false);
+    }
+    public void CloseNORecord()
+    {
+        no_record.SetActive(false);
+    }
 }
