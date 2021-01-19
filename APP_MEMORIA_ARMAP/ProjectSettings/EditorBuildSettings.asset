@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Inicio2_Alerta.unity
     guid: 95520ddfcd399c841b6fc62ab61aaa89
   - enabled: 1
+    path: Assets/Scenes/Menu_Simple_Zona_Peligro.unity
+    guid: 6fad508eb0f532d4abf3c4eafde77cc0
+  - enabled: 0
     path: Assets/Scenes/Menu_Simple.unity
     guid: 0913e7e6b9249824a88bf821b2e7e5a3
   - enabled: 1
@@ -33,9 +36,6 @@ EditorBuildSettings:
     path: Assets/Scenes/AR_MAP_2.unity
     guid: 4ee50b4e30fa9274699d09704e0d3572
   - enabled: 1
-    path: Assets/Scenes/Menu_Simple_Zona_Peligro.unity
-    guid: 6fad508eb0f532d4abf3c4eafde77cc0
-  - enabled: 1
     path: "Assets/Scenes/Mapa_Edificios p\xFAblicos_institucionales.unity"
     guid: 59e8d082b163bdf439d5afb3276d77dc
   - enabled: 1
@@ -53,7 +53,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Test.unity
     guid: d298c8e3b90deea4e863831252b4ca39
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Historial_Tiempos.unity
     guid: 7a68265cc6d7a574b84a514d09b067b4
   m_configObjects: {}
