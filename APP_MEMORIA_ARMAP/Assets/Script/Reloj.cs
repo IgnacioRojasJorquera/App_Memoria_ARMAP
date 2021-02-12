@@ -31,7 +31,7 @@ public class Reloj : MonoBehaviour
     //para popup
     public GameObject record;
     public GameObject no_record;
-
+    public GameObject test;
 
     /*
     //Mantentener tiempo en otras escenas, SINGLETONS
@@ -57,6 +57,7 @@ public class Reloj : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        
         LoadData();
         //Establecer escala de tiempo original
         escala_tiempo_inicial = escala_tiempo;
@@ -211,6 +212,16 @@ public class Reloj : MonoBehaviour
     public void NORecord()
     {
         no_record.SetActive(true);
+    }
+
+    public void Test()
+    {
+        test.SetActive(true);
+    }
+
+    public void NOTest()
+    {
+        test.SetActive(true);
     }
     public void CloseRecord()
     {

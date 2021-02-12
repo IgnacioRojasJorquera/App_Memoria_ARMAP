@@ -688,7 +688,7 @@ MonoBehaviour:
         _maskValue: 0
         selectedTypes: 
         spawnPrefabOptions:
-          prefab: {fileID: 0}
+          prefab: {fileID: 100002, guid: 8ca0d8eb98ec4184794cec72325a1df6, type: 3}
           scaleDownWithWorld: 0
         findByType: 2
         categories: -1
@@ -752,7 +752,7 @@ MonoBehaviour:
         _maskValue: 0
         selectedTypes: 
         spawnPrefabOptions:
-          prefab: {fileID: 0}
+          prefab: {fileID: 100002, guid: 8ca0d8eb98ec4184794cec72325a1df6, type: 3}
           scaleDownWithWorld: 0
         findByType: 2
         categories: -1
@@ -816,7 +816,7 @@ MonoBehaviour:
         _maskValue: 0
         selectedTypes: 
         spawnPrefabOptions:
-          prefab: {fileID: 0}
+          prefab: {fileID: 100002, guid: 8ca0d8eb98ec4184794cec72325a1df6, type: 3}
           scaleDownWithWorld: 0
         findByType: 2
         categories: -1
@@ -880,7 +880,7 @@ MonoBehaviour:
         _maskValue: 0
         selectedTypes: 
         spawnPrefabOptions:
-          prefab: {fileID: 0}
+          prefab: {fileID: 100002, guid: 8ca0d8eb98ec4184794cec72325a1df6, type: 3}
           scaleDownWithWorld: 0
         findByType: 2
         categories: -1
@@ -944,7 +944,7 @@ MonoBehaviour:
         _maskValue: 0
         selectedTypes: 
         spawnPrefabOptions:
-          prefab: {fileID: 0}
+          prefab: {fileID: 100002, guid: 8ca0d8eb98ec4184794cec72325a1df6, type: 3}
           scaleDownWithWorld: 0
         findByType: 2
         categories: -1
@@ -1008,7 +1008,7 @@ MonoBehaviour:
         _maskValue: 0
         selectedTypes: 
         spawnPrefabOptions:
-          prefab: {fileID: 0}
+          prefab: {fileID: 100002, guid: 8ca0d8eb98ec4184794cec72325a1df6, type: 3}
           scaleDownWithWorld: 0
         findByType: 2
         categories: -1
@@ -1072,7 +1072,7 @@ MonoBehaviour:
         _maskValue: 0
         selectedTypes: 
         spawnPrefabOptions:
-          prefab: {fileID: 0}
+          prefab: {fileID: 100002, guid: 8ca0d8eb98ec4184794cec72325a1df6, type: 3}
           scaleDownWithWorld: 0
         findByType: 2
         categories: -1
@@ -1136,7 +1136,7 @@ MonoBehaviour:
         _maskValue: 0
         selectedTypes: 
         spawnPrefabOptions:
-          prefab: {fileID: 0}
+          prefab: {fileID: 100002, guid: 8ca0d8eb98ec4184794cec72325a1df6, type: 3}
           scaleDownWithWorld: 0
         findByType: 2
         categories: -1
@@ -1200,7 +1200,7 @@ MonoBehaviour:
         _maskValue: 0
         selectedTypes: 
         spawnPrefabOptions:
-          prefab: {fileID: 0}
+          prefab: {fileID: 100002, guid: 8ca0d8eb98ec4184794cec72325a1df6, type: 3}
           scaleDownWithWorld: 0
         findByType: 2
         categories: -1
@@ -1264,7 +1264,7 @@ MonoBehaviour:
         _maskValue: 0
         selectedTypes: 
         spawnPrefabOptions:
-          prefab: {fileID: 0}
+          prefab: {fileID: 100002, guid: 8ca0d8eb98ec4184794cec72325a1df6, type: 3}
           scaleDownWithWorld: 0
         findByType: 2
         categories: -1
@@ -1328,7 +1328,7 @@ MonoBehaviour:
         _maskValue: 0
         selectedTypes: 
         spawnPrefabOptions:
-          prefab: {fileID: 0}
+          prefab: {fileID: 100002, guid: 8ca0d8eb98ec4184794cec72325a1df6, type: 3}
           scaleDownWithWorld: 0
         findByType: 2
         categories: -1
@@ -1392,7 +1392,7 @@ MonoBehaviour:
         _maskValue: 0
         selectedTypes: 
         spawnPrefabOptions:
-          prefab: {fileID: 0}
+          prefab: {fileID: 100002, guid: 8ca0d8eb98ec4184794cec72325a1df6, type: 3}
           scaleDownWithWorld: 0
         findByType: 2
         categories: -1
@@ -1456,7 +1456,7 @@ MonoBehaviour:
         _maskValue: 0
         selectedTypes: 
         spawnPrefabOptions:
-          prefab: {fileID: 0}
+          prefab: {fileID: 100002, guid: 8ca0d8eb98ec4184794cec72325a1df6, type: 3}
           scaleDownWithWorld: 0
         findByType: 2
         categories: -1
@@ -1520,7 +1520,7 @@ MonoBehaviour:
         _maskValue: 0
         selectedTypes: 
         spawnPrefabOptions:
-          prefab: {fileID: 0}
+          prefab: {fileID: 100002, guid: 8ca0d8eb98ec4184794cec72325a1df6, type: 3}
           scaleDownWithWorld: 0
         findByType: 2
         categories: -1
@@ -1584,7 +1584,7 @@ MonoBehaviour:
         _maskValue: 0
         selectedTypes: 
         spawnPrefabOptions:
-          prefab: {fileID: 0}
+          prefab: {fileID: 100002, guid: 8ca0d8eb98ec4184794cec72325a1df6, type: 3}
           scaleDownWithWorld: 0
         findByType: 2
         categories: -1
@@ -1648,8 +1648,8 @@ MonoBehaviour:
         _maskValue: 0
         selectedTypes: 
         spawnPrefabOptions:
-          prefab: {fileID: 0}
-          scaleDownWithWorld: 1
+          prefab: {fileID: 100002, guid: 8ca0d8eb98ec4184794cec72325a1df6, type: 3}
+          scaleDownWithWorld: 0
         findByType: 2
         categories: -1
         nameString: 
@@ -1712,7 +1712,7 @@ MonoBehaviour:
         _maskValue: 0
         selectedTypes: 
         spawnPrefabOptions:
-          prefab: {fileID: 0}
+          prefab: {fileID: 100002, guid: 8ca0d8eb98ec4184794cec72325a1df6, type: 3}
           scaleDownWithWorld: 0
         findByType: 2
         categories: -1
@@ -1776,7 +1776,7 @@ MonoBehaviour:
         _maskValue: 0
         selectedTypes: 
         spawnPrefabOptions:
-          prefab: {fileID: 0}
+          prefab: {fileID: 100002, guid: 8ca0d8eb98ec4184794cec72325a1df6, type: 3}
           scaleDownWithWorld: 0
         findByType: 2
         categories: -1
@@ -1840,7 +1840,7 @@ MonoBehaviour:
         _maskValue: 0
         selectedTypes: 
         spawnPrefabOptions:
-          prefab: {fileID: 0}
+          prefab: {fileID: 100002, guid: 8ca0d8eb98ec4184794cec72325a1df6, type: 3}
           scaleDownWithWorld: 0
         findByType: 2
         categories: -1
@@ -1904,7 +1904,7 @@ MonoBehaviour:
         _maskValue: 0
         selectedTypes: 
         spawnPrefabOptions:
-          prefab: {fileID: 0}
+          prefab: {fileID: 100002, guid: 8ca0d8eb98ec4184794cec72325a1df6, type: 3}
           scaleDownWithWorld: 0
         findByType: 2
         categories: -1
@@ -1968,7 +1968,7 @@ MonoBehaviour:
         _maskValue: 0
         selectedTypes: 
         spawnPrefabOptions:
-          prefab: {fileID: 0}
+          prefab: {fileID: 100002, guid: 8ca0d8eb98ec4184794cec72325a1df6, type: 3}
           scaleDownWithWorld: 0
         findByType: 2
         categories: -1
@@ -2032,7 +2032,7 @@ MonoBehaviour:
         _maskValue: 0
         selectedTypes: 
         spawnPrefabOptions:
-          prefab: {fileID: 0}
+          prefab: {fileID: 100002, guid: 8ca0d8eb98ec4184794cec72325a1df6, type: 3}
           scaleDownWithWorld: 0
         findByType: 2
         categories: -1
@@ -2096,7 +2096,7 @@ MonoBehaviour:
         _maskValue: 0
         selectedTypes: 
         spawnPrefabOptions:
-          prefab: {fileID: 0}
+          prefab: {fileID: 100002, guid: 8ca0d8eb98ec4184794cec72325a1df6, type: 3}
           scaleDownWithWorld: 0
         findByType: 2
         categories: -1
@@ -2160,7 +2160,7 @@ MonoBehaviour:
         _maskValue: 0
         selectedTypes: 
         spawnPrefabOptions:
-          prefab: {fileID: 0}
+          prefab: {fileID: 100002, guid: 8ca0d8eb98ec4184794cec72325a1df6, type: 3}
           scaleDownWithWorld: 0
         findByType: 2
         categories: -1
@@ -2224,7 +2224,7 @@ MonoBehaviour:
         _maskValue: 0
         selectedTypes: 
         spawnPrefabOptions:
-          prefab: {fileID: 0}
+          prefab: {fileID: 100002, guid: 8ca0d8eb98ec4184794cec72325a1df6, type: 3}
           scaleDownWithWorld: 0
         findByType: 2
         categories: -1
@@ -2288,7 +2288,7 @@ MonoBehaviour:
         _maskValue: 0
         selectedTypes: 
         spawnPrefabOptions:
-          prefab: {fileID: 0}
+          prefab: {fileID: 100002, guid: 8ca0d8eb98ec4184794cec72325a1df6, type: 3}
           scaleDownWithWorld: 0
         findByType: 2
         categories: -1
@@ -2352,7 +2352,7 @@ MonoBehaviour:
         _maskValue: 0
         selectedTypes: 
         spawnPrefabOptions:
-          prefab: {fileID: 0}
+          prefab: {fileID: 100002, guid: 8ca0d8eb98ec4184794cec72325a1df6, type: 3}
           scaleDownWithWorld: 0
         findByType: 2
         categories: -1
@@ -2416,7 +2416,7 @@ MonoBehaviour:
         _maskValue: 0
         selectedTypes: 
         spawnPrefabOptions:
-          prefab: {fileID: 0}
+          prefab: {fileID: 100002, guid: 8ca0d8eb98ec4184794cec72325a1df6, type: 3}
           scaleDownWithWorld: 0
         findByType: 2
         categories: -1
@@ -2480,7 +2480,7 @@ MonoBehaviour:
         _maskValue: 0
         selectedTypes: 
         spawnPrefabOptions:
-          prefab: {fileID: 0}
+          prefab: {fileID: 100002, guid: 8ca0d8eb98ec4184794cec72325a1df6, type: 3}
           scaleDownWithWorld: 0
         findByType: 2
         categories: -1
@@ -2544,7 +2544,7 @@ MonoBehaviour:
         _maskValue: 0
         selectedTypes: 
         spawnPrefabOptions:
-          prefab: {fileID: 0}
+          prefab: {fileID: 100002, guid: 8ca0d8eb98ec4184794cec72325a1df6, type: 3}
           scaleDownWithWorld: 0
         findByType: 2
         categories: -1
@@ -2608,7 +2608,7 @@ MonoBehaviour:
         _maskValue: 0
         selectedTypes: 
         spawnPrefabOptions:
-          prefab: {fileID: 0}
+          prefab: {fileID: 100002, guid: 8ca0d8eb98ec4184794cec72325a1df6, type: 3}
           scaleDownWithWorld: 0
         findByType: 2
         categories: -1
@@ -2672,7 +2672,7 @@ MonoBehaviour:
         _maskValue: 0
         selectedTypes: 
         spawnPrefabOptions:
-          prefab: {fileID: 0}
+          prefab: {fileID: 100002, guid: 8ca0d8eb98ec4184794cec72325a1df6, type: 3}
           scaleDownWithWorld: 0
         findByType: 2
         categories: -1
@@ -2736,7 +2736,7 @@ MonoBehaviour:
         _maskValue: 0
         selectedTypes: 
         spawnPrefabOptions:
-          prefab: {fileID: 0}
+          prefab: {fileID: 100002, guid: 8ca0d8eb98ec4184794cec72325a1df6, type: 3}
           scaleDownWithWorld: 0
         findByType: 2
         categories: -1
@@ -2800,7 +2800,7 @@ MonoBehaviour:
         _maskValue: 0
         selectedTypes: 
         spawnPrefabOptions:
-          prefab: {fileID: 0}
+          prefab: {fileID: 100002, guid: 8ca0d8eb98ec4184794cec72325a1df6, type: 3}
           scaleDownWithWorld: 0
         findByType: 2
         categories: -1
@@ -2864,7 +2864,7 @@ MonoBehaviour:
         _maskValue: 0
         selectedTypes: 
         spawnPrefabOptions:
-          prefab: {fileID: 0}
+          prefab: {fileID: 100002, guid: 8ca0d8eb98ec4184794cec72325a1df6, type: 3}
           scaleDownWithWorld: 0
         findByType: 2
         categories: -1
@@ -2928,7 +2928,7 @@ MonoBehaviour:
         _maskValue: 0
         selectedTypes: 
         spawnPrefabOptions:
-          prefab: {fileID: 0}
+          prefab: {fileID: 100002, guid: 8ca0d8eb98ec4184794cec72325a1df6, type: 3}
           scaleDownWithWorld: 0
         findByType: 2
         categories: -1
@@ -2992,7 +2992,7 @@ MonoBehaviour:
         _maskValue: 0
         selectedTypes: 
         spawnPrefabOptions:
-          prefab: {fileID: 0}
+          prefab: {fileID: 100002, guid: 8ca0d8eb98ec4184794cec72325a1df6, type: 3}
           scaleDownWithWorld: 0
         findByType: 2
         categories: -1
@@ -3056,7 +3056,7 @@ MonoBehaviour:
         _maskValue: 0
         selectedTypes: 
         spawnPrefabOptions:
-          prefab: {fileID: 0}
+          prefab: {fileID: 100002, guid: 8ca0d8eb98ec4184794cec72325a1df6, type: 3}
           scaleDownWithWorld: 0
         findByType: 2
         categories: -1
