@@ -10,7 +10,7 @@ public class CotroladorGPS : MonoBehaviour
 
     private void Awake()
     {
-        filePath = Application.dataPath + "/Script/Coordenadas.json";
+        filePath = Application.dataPath + "/Coordenadas.json";
         jsonStrig = File.ReadAllText(filePath);
         ListaCoordenadas listaCoordenadas = JsonUtility.FromJson<ListaCoordenadas>(jsonStrig);
         //print(listaCoordenadas);
@@ -23,11 +23,12 @@ public class Coordenada
 {
     public float latitud;
     public float longitud;
-
+    
     public override string ToString()
     {
-        return string.Format ("Latitud:{0} , Longitud: {1}", latitud, longitud);
+       return string.Format ("Latitud: {0} , Longitud: {1}", latitud, longitud);
     }
+    
 }
 
 
