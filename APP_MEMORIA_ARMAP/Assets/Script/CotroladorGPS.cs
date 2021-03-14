@@ -5,6 +5,7 @@ using System.IO;
 using Newtonsoft.Json;
 using UnityEngine.UI;
 using System;
+using System.Linq;
 
 public class CotroladorGPS : MonoBehaviour
 {
@@ -12,10 +13,21 @@ public class CotroladorGPS : MonoBehaviour
     string jsonStrig;
 
     public GameObject objeto1;
+    public List<Item> items = new List<Item>();
 
     //private string prefabName = "listPrefab";
+
+    GameObject contentHolder;
+    //GameObject thePrefab;
+    /*private void Start()
+    {
+      contentHolder = GameObject.FindWithTag("Content");
+    }*/
+
     private void Awake()
     {
+        contentHolder = GameObject.FindWithTag("Content");
+
         filePath = Application.dataPath + "/Coordenadas.json";
         jsonStrig = File.ReadAllText(filePath);
         ListaCoordenadas listaCoordenadas = JsonUtility.FromJson<ListaCoordenadas>(jsonStrig);
@@ -40,10 +52,13 @@ public class CotroladorGPS : MonoBehaviour
             Debug.Log(theText[0].text + ": " + Math.Round(GeoCodeCalc.CalcDistance(41.648408, 2.739420, listaCoordenadas.coordenadas[i].latitud, listaCoordenadas.coordenadas[i].longitud, GeoCodeCalcMeasurement.Metre), 2));
             //Debug.Log(theText[0].text + ": " + Math.Round(GeoCodeCalc.CalcDistance(-18.455141333306248, -70.28160946087549, -18.454795312541773, -70.284366771555, GeoCodeCalcMeasurement.Metre), 2));
             //double distancia = Math.Round(GeoCodeCalc.CalcDistance(-18.455141333306248, -70.28160946087549, listaCoordenadas.coordenadas[i].latitud, listaCoordenadas.coordenadas[i].longitud, GeoCodeCalcMeasurement.Metre), 2);
-            double distancia = Math.Round(GeoCodeCalc.CalcDistance(GPS.latitude, GPS.longitude, listaCoordenadas.coordenadas[i].latitud, listaCoordenadas.coordenadas[i].longitud, GeoCodeCalcMeasurement.Metre), 2);
+            //double distancia = Math.Round(GeoCodeCalc.CalcDistance(GPS.latitude, GPS.longitude, listaCoordenadas.coordenadas[i].latitud, listaCoordenadas.coordenadas[i].longitud, GeoCodeCalcMeasurement.Metre), 2);
+            double distancia = Math.Round(GeoCodeCalc.CalcDistance(-18.455141333306248, -70.28160946087549, listaCoordenadas.coordenadas[i].latitud, listaCoordenadas.coordenadas[i].longitud, GeoCodeCalcMeasurement.Metre), 2);
+
             theText[1].text = "Distancia : " + distancia.ToString() + "m";
 
             thePrefab.transform.localScale = new Vector3(1,1,1);
+            items.Add(new Item(listaCoordenadas.coordenadas[i].nombre, distancia));
 
             //Button[] button = thePrefab.GetComponentsInChildren<Button>();
             //button[0].name = listaCoordenadas.coordenadas[i].nombre;
@@ -54,6 +69,9 @@ public class CotroladorGPS : MonoBehaviour
             AddListener(button[0], url);
             */
         }
+        //Debug.Log(items.Count);
+        //RePopular(items);
+        OderByDistance(items);
     }
     /*
     void AddListener(Button b, string url)
@@ -61,6 +79,48 @@ public class CotroladorGPS : MonoBehaviour
         b.onClick.AddListener(()=> Application.OpenURL(url));
     }
     */
+
+    void OderByDistance(List<Item> itemsPassed)
+    {
+        itemsPassed = itemsPassed.OrderBy(a => a.TheDistance).ToList();
+        RePopular(itemsPassed);
+    }
+    void RePopular(List<Item> itemsPassed)
+    {
+        foreach (Transform child in contentHolder.transform)
+        {
+            //Debug.Log("Matando :"+child.gameObject.name);
+            Destroy(child.gameObject);
+        }
+
+        for (int i = 0; i<itemsPassed.Count; i++)
+        {
+            GameObject thePrefab = Instantiate(objeto1);
+            thePrefab.transform.parent = contentHolder.transform;
+            Text[] theText = thePrefab.GetComponentsInChildren<Text>();
+            theText[0].text = itemsPassed[i].TheTitle;
+            theText[1].text = "Distancia :"+itemsPassed[i].TheDistance.ToString()+"m";
+
+            thePrefab.transform.localScale = new Vector3(1, 1, 1);
+
+        }
+    }
+}
+
+public class Item
+{
+    //public string Pname;
+    public string TheTitle;
+    public double TheDistance;
+    //public string TheURL;
+
+    public Item(/*string pname, */string thetile, double thedistance/*, string theurl*/)
+    {
+        //Pname = pname;
+        TheTitle = thetile;
+        TheDistance = thedistance;
+        //TheURL = theurl;
+    }
 }
 
 [System.Serializable]
