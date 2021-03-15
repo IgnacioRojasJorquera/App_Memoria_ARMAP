@@ -129,12 +129,12 @@ public class Coordenada
     public double latitud;
     public double longitud;
     public string nombre;
-    /*
+    
     public override string ToString()
     {
        return string.Format ("Nombre: {0} , Latitud: {1} , Longitud: {2}", nombre, latitud, longitud);
     }
-    */
+    
 }
 
 
