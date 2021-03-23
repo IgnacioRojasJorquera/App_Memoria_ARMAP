@@ -9,6 +9,11 @@ using System.Linq;
 
 public class CotroladorGPS : MonoBehaviour
 {
+    public static float longitude;
+    public static float latitude;
+
+
+
     string filePath;
     string jsonStrig;
 
@@ -26,6 +31,9 @@ public class CotroladorGPS : MonoBehaviour
 
     private void Awake()
     {
+        latitude = Input.location.lastData.latitude;
+        longitude = Input.location.lastData.longitude;
+
         contentHolder = GameObject.FindWithTag("Content");
 
         filePath = Application.dataPath + "/Coordenadas.json";
@@ -53,11 +61,13 @@ public class CotroladorGPS : MonoBehaviour
             //Debug.Log(theText[0].text + ": " + Math.Round(GeoCodeCalc.CalcDistance(-18.455141333306248, -70.28160946087549, -18.454795312541773, -70.284366771555, GeoCodeCalcMeasurement.Metre), 2));
             //double distancia = Math.Round(GeoCodeCalc.CalcDistance(-18.455141333306248, -70.28160946087549, listaCoordenadas.coordenadas[i].latitud, listaCoordenadas.coordenadas[i].longitud, GeoCodeCalcMeasurement.Metre), 2);
             //double distancia = Math.Round(GeoCodeCalc.CalcDistance(GPS.latitude, GPS.longitude, listaCoordenadas.coordenadas[i].latitud, listaCoordenadas.coordenadas[i].longitud, GeoCodeCalcMeasurement.Metre), 2);
-            double distancia = Math.Round(GeoCodeCalc.CalcDistance(-18.455141333306248, -70.28160946087549, listaCoordenadas.coordenadas[i].latitud, listaCoordenadas.coordenadas[i].longitud, GeoCodeCalcMeasurement.Metre), 2);
+            //double distancia = Math.Round(GeoCodeCalc.CalcDistance(-18.455141333306248, -70.28160946087549, listaCoordenadas.coordenadas[i].latitud, listaCoordenadas.coordenadas[i].longitud, GeoCodeCalcMeasurement.Metre), 2);
+            double distancia = Math.Round(GeoCodeCalc.CalcDistance(latitude, longitude, listaCoordenadas.coordenadas[i].latitud, listaCoordenadas.coordenadas[i].longitud, GeoCodeCalcMeasurement.Metre), 2);
+
 
             theText[1].text = "Distancia : " + distancia.ToString() + "m";
 
-            thePrefab.transform.localScale = new Vector3(1,1,1);
+            //thePrefab.transform.localScale = new Vector3(1,1,1);
             items.Add(new Item(listaCoordenadas.coordenadas[i].nombre, distancia));
 
             //Button[] button = thePrefab.GetComponentsInChildren<Button>();
@@ -101,7 +111,7 @@ public class CotroladorGPS : MonoBehaviour
             theText[0].text = itemsPassed[i].TheTitle;
             theText[1].text = "Distancia :"+itemsPassed[i].TheDistance.ToString()+"m";
 
-            thePrefab.transform.localScale = new Vector3(1, 1, 1);
+            //thePrefab.transform.localScale = new Vector3(1, 1, 1);
 
         }
     }

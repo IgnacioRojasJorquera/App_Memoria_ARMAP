@@ -5,8 +5,8 @@
 		{"nombre": "Zapiga con Mejillones","latitud": -18.43061, "longitud": -70.28685},
 		{"nombre": "Zapiga con Villarrica","latitud": -18.43255, "longitud": -70.28598},
 		{"nombre": "Zapiga con Los Misioneros","latitud": -18.43344, "longitud": -70.28565},
-		{"nombre": "Zapiga con Tomé","latitud": -18.43444, "longitud": -70.28527},
-		{"nombre": "Zapiga con Moisés Zúñiga","latitud": -18.43625, "longitud": -70.28458},
+		{"nombre": "Zapiga con Tome","latitud": -18.43444, "longitud": -70.28527},
+		{"nombre": "Zapiga con Moisés Zuñiga","latitud": -18.43625, "longitud": -70.28458},
 		{"nombre": "Zapiga con Anacleto Lagos","latitud": -18.43836, "longitud": -70.28407},
 		{"nombre": "Zapiga con A. Neghme","latitud": -18.4392, "longitud": -70.28372},
 		{"nombre": "Zapiga con Fuerte Bulnes","latitud": -18.43998, "longitud": -70.28387},
@@ -14,14 +14,14 @@
 		{"nombre": "Zapiga con Alejandro Fierro","latitud": -18.4438, "longitud": -70.28265},
 		{"nombre": "Zapiga con Buena Esperanza","latitud": -18.44482, "longitud": -70.28237},
 		{"nombre": "Zapiga con Juan de Dios Flores","latitud": -18.44584, "longitud": -70.28208},
-		{"nombre": "Zapiga con Isla Alacrán","latitud": -18.44851, "longitud": -70.28145},
-		{"nombre": "Linderos Con Antártica","latitud": -18.45258, "longitud": -70.28454},
+		{"nombre": "Zapiga con Isla Alacran","latitud": -18.44851, "longitud": -70.28145},
+		{"nombre": "Linderos Con Antartica","latitud": -18.45258, "longitud": -70.28454},
 		{"nombre": "Alejandro Azolas con Los Artesanos","latitud": -18.4577, "longitud": -70.28533},
-		{"nombre": "A. Azolas con Óscar Quina","latitud": -18.4631, "longitud": -70.28991},
+		{"nombre": "A. Azolas con Oscar Quina","latitud": -18.4631, "longitud": -70.28991},
 		{"nombre": "A. Azolas con Francisco Bilbao","latitud": -18.46669, "longitud": -70.293},
 		{"nombre": "A. Azolas con Paula Jaraquemada","latitud": -18.46775, "longitud": -70.2939},
 		{"nombre": "A. Azolas con Colo Colo","latitud": -18.47003, "longitud": -70.29602},
-		{"nombre": "A. Azolas con San José","latitud": -18.47524, "longitud": -70.30028},
+		{"nombre": "A. Azolas con San Jose","latitud": -18.47524, "longitud": -70.30028},
 		{"nombre": "A. Azolas con Rómulo Peña","latitud": -18.47842,"longitud": -70.30382},
 		{"nombre": "Lastarria con Vicuña Mackenna","latitud": -18.47856, "longitud": -70.30947},
 		{"nombre": "Lastarria con Lautaro","latitud": -18.4802, "longitud": -70.3078},
@@ -34,10 +34,10 @@
 		{"nombre": "Yungay con General Lagos","latitud": -18.48252, "longitud": -70.3183},
 		{"nombre": "Yungay con Patricio Lynch","latitud": -18.48173, "longitud": -70.31907},
 		{"nombre": "Yungay con Baquedano","latitud": -18.48084, "longitud": -70.3198},
-		{"nombre": "Acapulco, sector alto playa el Laucó","latitud": -18.49076, "longitud": -70.32696},
+		{"nombre": "Acapulco, sector alto playa el Laucho","latitud": -18.49076, "longitud": -70.32696},
 		{"nombre": "Sector Alto Playa la Lisera","latitud": -18.49193, "longitud": -70.32561},
-		{"nombre": "Rafael Durán con Pedro Lagos","latitud": -18.39193, "longitud": -70.31233},
-		{"nombre": "Rafael Durán con Isabel Riquelme","latitud": -18.39467,"longitud": -70.31083}
+		{"nombre": "Rafael Duran con Pedro Lagos","latitud": -18.39193, "longitud": -70.31233},
+		{"nombre": "Rafael Duran con Isabel Riquelme","latitud": -18.39467,"longitud": -70.31083}
 
 	]
 }
