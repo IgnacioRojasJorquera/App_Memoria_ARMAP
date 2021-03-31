@@ -29,7 +29,7 @@ public class CotroladorGPS : MonoBehaviour
       contentHolder = GameObject.FindWithTag("Content");
     }*/
 
-    private void Awake()
+    void Start()
     {
         latitude = Input.location.lastData.latitude;
         longitude = Input.location.lastData.longitude;
@@ -59,7 +59,6 @@ public class CotroladorGPS : MonoBehaviour
 
             Debug.Log(theText[0].text + ": " + Math.Round(GeoCodeCalc.CalcDistance(41.648408, 2.739420, listaCoordenadas.coordenadas[i].latitud, listaCoordenadas.coordenadas[i].longitud, GeoCodeCalcMeasurement.Metre), 2));
             //Debug.Log(theText[0].text + ": " + Math.Round(GeoCodeCalc.CalcDistance(-18.455141333306248, -70.28160946087549, -18.454795312541773, -70.284366771555, GeoCodeCalcMeasurement.Metre), 2));
-            //double distancia = Math.Round(GeoCodeCalc.CalcDistance(-18.455141333306248, -70.28160946087549, listaCoordenadas.coordenadas[i].latitud, listaCoordenadas.coordenadas[i].longitud, GeoCodeCalcMeasurement.Metre), 2);
             //double distancia = Math.Round(GeoCodeCalc.CalcDistance(GPS.latitude, GPS.longitude, listaCoordenadas.coordenadas[i].latitud, listaCoordenadas.coordenadas[i].longitud, GeoCodeCalcMeasurement.Metre), 2);
             //double distancia = Math.Round(GeoCodeCalc.CalcDistance(-18.455141333306248, -70.28160946087549, listaCoordenadas.coordenadas[i].latitud, listaCoordenadas.coordenadas[i].longitud, GeoCodeCalcMeasurement.Metre), 2);
             double distancia = Math.Round(GeoCodeCalc.CalcDistance(latitude, longitude, listaCoordenadas.coordenadas[i].latitud, listaCoordenadas.coordenadas[i].longitud, GeoCodeCalcMeasurement.Metre), 2);
