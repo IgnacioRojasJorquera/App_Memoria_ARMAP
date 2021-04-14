@@ -698,6 +698,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114105500206378512, guid: 35ce2bb4caba9434db5e656796b632b1,
         type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[36].coordinates.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114105500206378512, guid: 35ce2bb4caba9434db5e656796b632b1,
+        type: 3}
       propertyPath: _imagery._layerProperty.sourceType
       value: 6
       objectReference: {fileID: 0}
@@ -795,7 +800,8 @@ PrefabInstance:
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[0].spawnPrefabOptions.prefab
       value: 
-      objectReference: {fileID: 100000, guid: 1d04b7c8707e9d4439cb776a27b6cf0a, type: 3}
+      objectReference: {fileID: 1196953851599986, guid: 5bcb8afe019d04efc83e86f56b198ce0,
+        type: 3}
     - target: {fileID: 114105500206378512, guid: 35ce2bb4caba9434db5e656796b632b1,
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[1].coreOptions.isActive
@@ -820,7 +826,8 @@ PrefabInstance:
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[1].spawnPrefabOptions.prefab
       value: 
-      objectReference: {fileID: 100000, guid: 1d04b7c8707e9d4439cb776a27b6cf0a, type: 3}
+      objectReference: {fileID: 1196953851599986, guid: 5bcb8afe019d04efc83e86f56b198ce0,
+        type: 3}
     - target: {fileID: 114105500206378512, guid: 35ce2bb4caba9434db5e656796b632b1,
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[1].findByType
@@ -865,7 +872,8 @@ PrefabInstance:
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[2].spawnPrefabOptions.prefab
       value: 
-      objectReference: {fileID: 100000, guid: 1d04b7c8707e9d4439cb776a27b6cf0a, type: 3}
+      objectReference: {fileID: 1196953851599986, guid: 5bcb8afe019d04efc83e86f56b198ce0,
+        type: 3}
     - target: {fileID: 114105500206378512, guid: 35ce2bb4caba9434db5e656796b632b1,
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[2].findByType
@@ -910,7 +918,8 @@ PrefabInstance:
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[3].spawnPrefabOptions.prefab
       value: 
-      objectReference: {fileID: 100000, guid: 1d04b7c8707e9d4439cb776a27b6cf0a, type: 3}
+      objectReference: {fileID: 1196953851599986, guid: 5bcb8afe019d04efc83e86f56b198ce0,
+        type: 3}
     - target: {fileID: 114105500206378512, guid: 35ce2bb4caba9434db5e656796b632b1,
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[3].findByType
@@ -960,7 +969,8 @@ PrefabInstance:
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[4].spawnPrefabOptions.prefab
       value: 
-      objectReference: {fileID: 100000, guid: 1d04b7c8707e9d4439cb776a27b6cf0a, type: 3}
+      objectReference: {fileID: 1196953851599986, guid: 5bcb8afe019d04efc83e86f56b198ce0,
+        type: 3}
     - target: {fileID: 114105500206378512, guid: 35ce2bb4caba9434db5e656796b632b1,
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[4].findByType
@@ -1005,7 +1015,8 @@ PrefabInstance:
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[5].spawnPrefabOptions.prefab
       value: 
-      objectReference: {fileID: 100000, guid: 1d04b7c8707e9d4439cb776a27b6cf0a, type: 3}
+      objectReference: {fileID: 1196953851599986, guid: 5bcb8afe019d04efc83e86f56b198ce0,
+        type: 3}
     - target: {fileID: 114105500206378512, guid: 35ce2bb4caba9434db5e656796b632b1,
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[5].findByType
@@ -1050,7 +1061,8 @@ PrefabInstance:
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[6].spawnPrefabOptions.prefab
       value: 
-      objectReference: {fileID: 100000, guid: 1d04b7c8707e9d4439cb776a27b6cf0a, type: 3}
+      objectReference: {fileID: 1196953851599986, guid: 5bcb8afe019d04efc83e86f56b198ce0,
+        type: 3}
     - target: {fileID: 114105500206378512, guid: 35ce2bb4caba9434db5e656796b632b1,
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[6].findByType
@@ -1095,7 +1107,8 @@ PrefabInstance:
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[7].spawnPrefabOptions.prefab
       value: 
-      objectReference: {fileID: 100000, guid: 1d04b7c8707e9d4439cb776a27b6cf0a, type: 3}
+      objectReference: {fileID: 1196953851599986, guid: 5bcb8afe019d04efc83e86f56b198ce0,
+        type: 3}
     - target: {fileID: 114105500206378512, guid: 35ce2bb4caba9434db5e656796b632b1,
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[7].findByType
@@ -1140,7 +1153,8 @@ PrefabInstance:
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[8].spawnPrefabOptions.prefab
       value: 
-      objectReference: {fileID: 100000, guid: 1d04b7c8707e9d4439cb776a27b6cf0a, type: 3}
+      objectReference: {fileID: 1196953851599986, guid: 5bcb8afe019d04efc83e86f56b198ce0,
+        type: 3}
     - target: {fileID: 114105500206378512, guid: 35ce2bb4caba9434db5e656796b632b1,
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[8].findByType
@@ -1185,7 +1199,8 @@ PrefabInstance:
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[9].spawnPrefabOptions.prefab
       value: 
-      objectReference: {fileID: 100000, guid: 1d04b7c8707e9d4439cb776a27b6cf0a, type: 3}
+      objectReference: {fileID: 1196953851599986, guid: 5bcb8afe019d04efc83e86f56b198ce0,
+        type: 3}
     - target: {fileID: 114105500206378512, guid: 35ce2bb4caba9434db5e656796b632b1,
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[9].findByType
@@ -1230,7 +1245,8 @@ PrefabInstance:
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[10].spawnPrefabOptions.prefab
       value: 
-      objectReference: {fileID: 100000, guid: 1d04b7c8707e9d4439cb776a27b6cf0a, type: 3}
+      objectReference: {fileID: 1196953851599986, guid: 5bcb8afe019d04efc83e86f56b198ce0,
+        type: 3}
     - target: {fileID: 114105500206378512, guid: 35ce2bb4caba9434db5e656796b632b1,
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[10].findByType
@@ -1275,7 +1291,8 @@ PrefabInstance:
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[11].spawnPrefabOptions.prefab
       value: 
-      objectReference: {fileID: 100000, guid: 1d04b7c8707e9d4439cb776a27b6cf0a, type: 3}
+      objectReference: {fileID: 1196953851599986, guid: 5bcb8afe019d04efc83e86f56b198ce0,
+        type: 3}
     - target: {fileID: 114105500206378512, guid: 35ce2bb4caba9434db5e656796b632b1,
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[11].findByType
@@ -1320,7 +1337,8 @@ PrefabInstance:
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[12].spawnPrefabOptions.prefab
       value: 
-      objectReference: {fileID: 100000, guid: 1d04b7c8707e9d4439cb776a27b6cf0a, type: 3}
+      objectReference: {fileID: 1196953851599986, guid: 5bcb8afe019d04efc83e86f56b198ce0,
+        type: 3}
     - target: {fileID: 114105500206378512, guid: 35ce2bb4caba9434db5e656796b632b1,
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[12].findByType
@@ -1365,7 +1383,8 @@ PrefabInstance:
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[13].spawnPrefabOptions.prefab
       value: 
-      objectReference: {fileID: 100000, guid: 1d04b7c8707e9d4439cb776a27b6cf0a, type: 3}
+      objectReference: {fileID: 1196953851599986, guid: 5bcb8afe019d04efc83e86f56b198ce0,
+        type: 3}
     - target: {fileID: 114105500206378512, guid: 35ce2bb4caba9434db5e656796b632b1,
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[13].findByType
@@ -1410,7 +1429,8 @@ PrefabInstance:
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[14].spawnPrefabOptions.prefab
       value: 
-      objectReference: {fileID: 100000, guid: 1d04b7c8707e9d4439cb776a27b6cf0a, type: 3}
+      objectReference: {fileID: 1196953851599986, guid: 5bcb8afe019d04efc83e86f56b198ce0,
+        type: 3}
     - target: {fileID: 114105500206378512, guid: 35ce2bb4caba9434db5e656796b632b1,
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[14].findByType
@@ -1455,7 +1475,8 @@ PrefabInstance:
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[15].spawnPrefabOptions.prefab
       value: 
-      objectReference: {fileID: 100000, guid: 1d04b7c8707e9d4439cb776a27b6cf0a, type: 3}
+      objectReference: {fileID: 1196953851599986, guid: 5bcb8afe019d04efc83e86f56b198ce0,
+        type: 3}
     - target: {fileID: 114105500206378512, guid: 35ce2bb4caba9434db5e656796b632b1,
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[15].findByType
@@ -1500,7 +1521,8 @@ PrefabInstance:
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[16].spawnPrefabOptions.prefab
       value: 
-      objectReference: {fileID: 100000, guid: 1d04b7c8707e9d4439cb776a27b6cf0a, type: 3}
+      objectReference: {fileID: 1196953851599986, guid: 5bcb8afe019d04efc83e86f56b198ce0,
+        type: 3}
     - target: {fileID: 114105500206378512, guid: 35ce2bb4caba9434db5e656796b632b1,
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[16].findByType
@@ -1545,7 +1567,8 @@ PrefabInstance:
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[17].spawnPrefabOptions.prefab
       value: 
-      objectReference: {fileID: 100000, guid: 1d04b7c8707e9d4439cb776a27b6cf0a, type: 3}
+      objectReference: {fileID: 1196953851599986, guid: 5bcb8afe019d04efc83e86f56b198ce0,
+        type: 3}
     - target: {fileID: 114105500206378512, guid: 35ce2bb4caba9434db5e656796b632b1,
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[17].findByType
@@ -1590,7 +1613,8 @@ PrefabInstance:
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[18].spawnPrefabOptions.prefab
       value: 
-      objectReference: {fileID: 100000, guid: 1d04b7c8707e9d4439cb776a27b6cf0a, type: 3}
+      objectReference: {fileID: 1196953851599986, guid: 5bcb8afe019d04efc83e86f56b198ce0,
+        type: 3}
     - target: {fileID: 114105500206378512, guid: 35ce2bb4caba9434db5e656796b632b1,
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[18].findByType
@@ -1635,7 +1659,8 @@ PrefabInstance:
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[19].spawnPrefabOptions.prefab
       value: 
-      objectReference: {fileID: 100000, guid: 1d04b7c8707e9d4439cb776a27b6cf0a, type: 3}
+      objectReference: {fileID: 1196953851599986, guid: 5bcb8afe019d04efc83e86f56b198ce0,
+        type: 3}
     - target: {fileID: 114105500206378512, guid: 35ce2bb4caba9434db5e656796b632b1,
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[19].findByType
@@ -1680,7 +1705,8 @@ PrefabInstance:
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[20].spawnPrefabOptions.prefab
       value: 
-      objectReference: {fileID: 100000, guid: 1d04b7c8707e9d4439cb776a27b6cf0a, type: 3}
+      objectReference: {fileID: 1196953851599986, guid: 5bcb8afe019d04efc83e86f56b198ce0,
+        type: 3}
     - target: {fileID: 114105500206378512, guid: 35ce2bb4caba9434db5e656796b632b1,
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[20].findByType
@@ -1725,7 +1751,8 @@ PrefabInstance:
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[21].spawnPrefabOptions.prefab
       value: 
-      objectReference: {fileID: 100000, guid: 1d04b7c8707e9d4439cb776a27b6cf0a, type: 3}
+      objectReference: {fileID: 1196953851599986, guid: 5bcb8afe019d04efc83e86f56b198ce0,
+        type: 3}
     - target: {fileID: 114105500206378512, guid: 35ce2bb4caba9434db5e656796b632b1,
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[21].findByType
@@ -1770,7 +1797,8 @@ PrefabInstance:
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[22].spawnPrefabOptions.prefab
       value: 
-      objectReference: {fileID: 100000, guid: 1d04b7c8707e9d4439cb776a27b6cf0a, type: 3}
+      objectReference: {fileID: 1196953851599986, guid: 5bcb8afe019d04efc83e86f56b198ce0,
+        type: 3}
     - target: {fileID: 114105500206378512, guid: 35ce2bb4caba9434db5e656796b632b1,
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[22].findByType
@@ -1815,7 +1843,8 @@ PrefabInstance:
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[23].spawnPrefabOptions.prefab
       value: 
-      objectReference: {fileID: 100000, guid: 1d04b7c8707e9d4439cb776a27b6cf0a, type: 3}
+      objectReference: {fileID: 1196953851599986, guid: 5bcb8afe019d04efc83e86f56b198ce0,
+        type: 3}
     - target: {fileID: 114105500206378512, guid: 35ce2bb4caba9434db5e656796b632b1,
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[23].findByType
@@ -1860,7 +1889,8 @@ PrefabInstance:
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[24].spawnPrefabOptions.prefab
       value: 
-      objectReference: {fileID: 100000, guid: 1d04b7c8707e9d4439cb776a27b6cf0a, type: 3}
+      objectReference: {fileID: 1196953851599986, guid: 5bcb8afe019d04efc83e86f56b198ce0,
+        type: 3}
     - target: {fileID: 114105500206378512, guid: 35ce2bb4caba9434db5e656796b632b1,
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[24].findByType
@@ -1905,7 +1935,8 @@ PrefabInstance:
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[25].spawnPrefabOptions.prefab
       value: 
-      objectReference: {fileID: 100000, guid: 1d04b7c8707e9d4439cb776a27b6cf0a, type: 3}
+      objectReference: {fileID: 1196953851599986, guid: 5bcb8afe019d04efc83e86f56b198ce0,
+        type: 3}
     - target: {fileID: 114105500206378512, guid: 35ce2bb4caba9434db5e656796b632b1,
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[25].findByType
@@ -1950,7 +1981,8 @@ PrefabInstance:
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[26].spawnPrefabOptions.prefab
       value: 
-      objectReference: {fileID: 100000, guid: 1d04b7c8707e9d4439cb776a27b6cf0a, type: 3}
+      objectReference: {fileID: 1196953851599986, guid: 5bcb8afe019d04efc83e86f56b198ce0,
+        type: 3}
     - target: {fileID: 114105500206378512, guid: 35ce2bb4caba9434db5e656796b632b1,
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[26].findByType
@@ -1995,7 +2027,8 @@ PrefabInstance:
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[27].spawnPrefabOptions.prefab
       value: 
-      objectReference: {fileID: 100000, guid: 1d04b7c8707e9d4439cb776a27b6cf0a, type: 3}
+      objectReference: {fileID: 1196953851599986, guid: 5bcb8afe019d04efc83e86f56b198ce0,
+        type: 3}
     - target: {fileID: 114105500206378512, guid: 35ce2bb4caba9434db5e656796b632b1,
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[27].findByType
@@ -2040,7 +2073,8 @@ PrefabInstance:
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[28].spawnPrefabOptions.prefab
       value: 
-      objectReference: {fileID: 100000, guid: 1d04b7c8707e9d4439cb776a27b6cf0a, type: 3}
+      objectReference: {fileID: 1196953851599986, guid: 5bcb8afe019d04efc83e86f56b198ce0,
+        type: 3}
     - target: {fileID: 114105500206378512, guid: 35ce2bb4caba9434db5e656796b632b1,
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[28].findByType
@@ -2085,7 +2119,8 @@ PrefabInstance:
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[29].spawnPrefabOptions.prefab
       value: 
-      objectReference: {fileID: 100000, guid: 1d04b7c8707e9d4439cb776a27b6cf0a, type: 3}
+      objectReference: {fileID: 1196953851599986, guid: 5bcb8afe019d04efc83e86f56b198ce0,
+        type: 3}
     - target: {fileID: 114105500206378512, guid: 35ce2bb4caba9434db5e656796b632b1,
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[29].findByType
@@ -2130,7 +2165,8 @@ PrefabInstance:
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[30].spawnPrefabOptions.prefab
       value: 
-      objectReference: {fileID: 100000, guid: 1d04b7c8707e9d4439cb776a27b6cf0a, type: 3}
+      objectReference: {fileID: 1196953851599986, guid: 5bcb8afe019d04efc83e86f56b198ce0,
+        type: 3}
     - target: {fileID: 114105500206378512, guid: 35ce2bb4caba9434db5e656796b632b1,
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[30].findByType
@@ -2175,7 +2211,8 @@ PrefabInstance:
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[31].spawnPrefabOptions.prefab
       value: 
-      objectReference: {fileID: 100000, guid: 1d04b7c8707e9d4439cb776a27b6cf0a, type: 3}
+      objectReference: {fileID: 1196953851599986, guid: 5bcb8afe019d04efc83e86f56b198ce0,
+        type: 3}
     - target: {fileID: 114105500206378512, guid: 35ce2bb4caba9434db5e656796b632b1,
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[31].findByType
@@ -2220,7 +2257,8 @@ PrefabInstance:
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[32].spawnPrefabOptions.prefab
       value: 
-      objectReference: {fileID: 100000, guid: 1d04b7c8707e9d4439cb776a27b6cf0a, type: 3}
+      objectReference: {fileID: 1196953851599986, guid: 5bcb8afe019d04efc83e86f56b198ce0,
+        type: 3}
     - target: {fileID: 114105500206378512, guid: 35ce2bb4caba9434db5e656796b632b1,
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[32].findByType
@@ -2265,7 +2303,8 @@ PrefabInstance:
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[33].spawnPrefabOptions.prefab
       value: 
-      objectReference: {fileID: 100000, guid: 1d04b7c8707e9d4439cb776a27b6cf0a, type: 3}
+      objectReference: {fileID: 1196953851599986, guid: 5bcb8afe019d04efc83e86f56b198ce0,
+        type: 3}
     - target: {fileID: 114105500206378512, guid: 35ce2bb4caba9434db5e656796b632b1,
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[33].findByType
@@ -2310,7 +2349,8 @@ PrefabInstance:
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[34].spawnPrefabOptions.prefab
       value: 
-      objectReference: {fileID: 100000, guid: 1d04b7c8707e9d4439cb776a27b6cf0a, type: 3}
+      objectReference: {fileID: 1196953851599986, guid: 5bcb8afe019d04efc83e86f56b198ce0,
+        type: 3}
     - target: {fileID: 114105500206378512, guid: 35ce2bb4caba9434db5e656796b632b1,
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[34].findByType
@@ -2355,7 +2395,8 @@ PrefabInstance:
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[35].spawnPrefabOptions.prefab
       value: 
-      objectReference: {fileID: 100000, guid: 1d04b7c8707e9d4439cb776a27b6cf0a, type: 3}
+      objectReference: {fileID: 1196953851599986, guid: 5bcb8afe019d04efc83e86f56b198ce0,
+        type: 3}
     - target: {fileID: 114105500206378512, guid: 35ce2bb4caba9434db5e656796b632b1,
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[35].findByType
@@ -2375,6 +2416,77 @@ PrefabInstance:
         type: 3}
       propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[35].density
       value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 114105500206378512, guid: 35ce2bb4caba9434db5e656796b632b1,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[36].coreOptions.isActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114105500206378512, guid: 35ce2bb4caba9434db5e656796b632b1,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[36].coreOptions.sublayerName
+      value: panaderia
+      objectReference: {fileID: 0}
+    - target: {fileID: 114105500206378512, guid: 35ce2bb4caba9434db5e656796b632b1,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[36].coreOptions.snapToTerrain
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114105500206378512, guid: 35ce2bb4caba9434db5e656796b632b1,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[36].presetFeatureType
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114105500206378512, guid: 35ce2bb4caba9434db5e656796b632b1,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[36].spawnPrefabOptions.prefab
+      value: 
+      objectReference: {fileID: 1196953851599986, guid: 5bcb8afe019d04efc83e86f56b198ce0,
+        type: 3}
+    - target: {fileID: 114105500206378512, guid: 35ce2bb4caba9434db5e656796b632b1,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[36].findByType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114105500206378512, guid: 35ce2bb4caba9434db5e656796b632b1,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[36].categories
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114105500206378512, guid: 35ce2bb4caba9434db5e656796b632b1,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[36].coordinates.Array.data[0]
+      value: -18.455853726801944, -70.28171674855122
+      objectReference: {fileID: 0}
+    - target: {fileID: 114105500206378512, guid: 35ce2bb4caba9434db5e656796b632b1,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.locationPrefabList.Array.data[36].density
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 114105500206378512, guid: 35ce2bb4caba9434db5e656796b632b1,
+        type: 3}
+      propertyPath: _options.extentOptions.defaultExtents.rangeAroundCenterOptions.west
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114105500206378512, guid: 35ce2bb4caba9434db5e656796b632b1,
+        type: 3}
+      propertyPath: _options.extentOptions.defaultExtents.rangeAroundCenterOptions.north
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114105500206378512, guid: 35ce2bb4caba9434db5e656796b632b1,
+        type: 3}
+      propertyPath: _options.extentOptions.defaultExtents.rangeAroundCenterOptions.east
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114105500206378512, guid: 35ce2bb4caba9434db5e656796b632b1,
+        type: 3}
+      propertyPath: _options.extentOptions.defaultExtents.rangeAroundCenterOptions.south
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114105500206378512, guid: 35ce2bb4caba9434db5e656796b632b1,
+        type: 3}
+      propertyPath: _options.locationOptions.zoom
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 114472907270853152, guid: 35ce2bb4caba9434db5e656796b632b1,
         type: 3}
@@ -2775,7 +2887,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Menu_Simple_Zona_Peligro
+          m_StringArgument: AR_MAP
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &2031252460

@@ -36,9 +36,12 @@ public class CotroladorGPS : MonoBehaviour
 
         contentHolder = GameObject.FindWithTag("Content");
 
-        filePath = Application.dataPath + "/Coordenadas.json";
+       
+        filePath = Application.dataPath + "/Resources/Coordenadas.json";
         jsonStrig = File.ReadAllText(filePath);
+        
         ListaCoordenadas listaCoordenadas = JsonUtility.FromJson<ListaCoordenadas>(jsonStrig);
+
         //print(listaCoordenadas);
        
         listaCoordenadas.Listar();
